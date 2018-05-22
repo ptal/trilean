@@ -1,0 +1,17 @@
+[package]
+
+name = "trilean"
+version = "0.1.0"
+authors = [ "Pierre Talbot <ptalbot@hyc.io>" ]
+
+description = "Kleene's three-valued logic (boolean + unknown)."
+documentation = "https://docs.rs/trilean/0.1/trilean/"
+repository = "https://github.com/ptal/trilean"
+readme = "README.md"
+keywords = ["logic", "kleene", "ternary", "trilean"]
+license = "MIT/Apache-2.0"
+
+[lib]
+
+name = "trilean"
+path = "src/libtrilean/lib.rs"
