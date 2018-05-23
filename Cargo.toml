@@ -1,7 +1,7 @@
 [package]
 
 name = "trilean"
-version = "0.1.0"
+version = "1.0.0"
 authors = [ "Pierre Talbot <ptalbot@hyc.io>" ]
 
 description = "Kleene's three-valued logic (boolean + unknown)."
