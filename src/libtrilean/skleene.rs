@@ -15,8 +15,8 @@
 /// `SKleene` is a structure implementing the strong Kleene's three-valued logic (see README.md and the truth tables below).
 
 use skleene::SKleene::*;
-use std::ops::*;
-use std::fmt;
+use core::ops::*;
+use core::fmt;
 
 #[derive(Clone, Copy, PartialEq, Eq, Debug)]
 pub enum SKleene
