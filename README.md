@@ -8,7 +8,7 @@ Three-valued logics
 
 This library provides the strong Kleene's three-valued logic which contains the boolean values `true` and `false` and an additional `unknown` variant.
 The semantics of `unknown` usually means that the current value is neither true or false yet, but might evolve to one or the other later.
-In particular, we have `false && unknown` equals to `true`, although the second value is `unknown`, we can evaluate the full expression.
+In particular, we have `false && unknown` equals to `false`, although the second value is `unknown`, we can evaluate the full expression.
 
 Truth tables are available in the [documentation](https://docs.rs/trilean/).
 
